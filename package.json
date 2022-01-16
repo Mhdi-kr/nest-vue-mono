@@ -1,0 +1,29 @@
+{
+    "name": "nest-vue-mono",
+    "version": "1.0.0",
+    "description": "Nest",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "client:dev": "pnpm run dev --filter @nest-vue-mono/client",
+        "client:build": "pnpm run build --filter @nest-vue-mono/client",
+        "server:dev": "pnpm run dev --filter @nest-vue-mono/server",
+        "server:build": "pnpm run build --filter @nest-vue-mono/server",
+        "build": "pnpm run build --parallel",
+        "dev": "pnpm run dev --parallel"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Mhdi-kr/nest-vue-mono.git"
+    },
+    "keywords": [
+        "monorepo",
+        "typescript"
+    ],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Mhdi-kr/nest-vue-mono/issues"
+    },
+    "homepage": "https://github.com/Mhdi-kr/nest-vue-mono#readme"
+}
