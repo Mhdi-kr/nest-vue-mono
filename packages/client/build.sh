@@ -1,0 +1,1 @@
+docker build -t nest-vue-mono/client . && docker run -it -p 8080:80 --rm --name client nest-vue-mono/client

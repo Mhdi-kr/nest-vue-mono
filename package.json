@@ -7,6 +7,7 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "client:dev": "pnpm run dev --filter @nest-vue-mono/client",
         "client:build": "pnpm run build --filter @nest-vue-mono/client",
+        "client:start": "pnpm run preview --filter @nest-vue-mono/client",
         "server:dev": "pnpm run dev --filter @nest-vue-mono/server",
         "server:build": "pnpm run build --filter @nest-vue-mono/server",
         "build": "pnpm run build --parallel",
